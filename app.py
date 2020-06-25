@@ -19,13 +19,13 @@ def ssh(hostname, cmd):
 def task(host):
     server_info = get_server_info(ssh, host)
     requests.post(
-        url='http://127.0.0.1:8000/api/get_data/',
+        url='http://127.0.0.1:8000/api/server',
         json={'host': host, 'info': server_info})
 
 
 def get_server_list():
     response = requests.get(
-        url='http://127.0.0.1:8000/api/get_server_list/', )
+        url='http://127.0.0.1:8000/api/server/', )
 
     if not response.json()['status']:
         print('获取服务器列表失败！！！')
