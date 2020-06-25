@@ -15,3 +15,5 @@ SSH_PORT = 22
 SSH_PWD = 'root1234'
 
 LOGGING_PATH = os.path.join(BASE_DIR, 'log/cmdb.log')
+
+API_URL = 'http://127.0.0.1:8000/api/server/'
