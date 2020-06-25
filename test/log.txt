@@ -1,0 +1,5 @@
+Wed, 24 Jun 2020 14:44:30 9、日志处理.py[line:8] DEBUG debug message
+Wed, 24 Jun 2020 14:44:30 9、日志处理.py[line:9] INFO info message
+Wed, 24 Jun 2020 14:44:30 9、日志处理.py[line:10] WARNING warning message
+Wed, 24 Jun 2020 14:44:30 9、日志处理.py[line:11] ERROR error message
+Wed, 24 Jun 2020 14:44:30 9、日志处理.py[line:12] CRITICAL critical message

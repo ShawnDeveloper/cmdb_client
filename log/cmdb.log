@@ -1,0 +1,453 @@
+2020-06-24 19:27:57,360 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 25, in process
+    response.data = self.format_info(info)
+AttributeError: 'BasicPlugin' object has no attribute 'format_info'
+
+2020-06-24 19:27:59,030 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 25, in process
+    response.data = self.format_info(info)
+AttributeError: 'BasicPlugin' object has no attribute 'format_info'
+
+2020-06-24 19:28:03,221 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 25, in process
+    response.data = self.format_info(info)
+AttributeError: 'BasicPlugin' object has no attribute 'format_info'
+
+2020-06-24 19:28:40,033 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 25, in process
+    response.data = self.format_info(info)
+AttributeError: 'BasicPlugin' object has no attribute 'format_info'
+
+2020-06-24 19:28:40,218 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 25, in process
+    response.data = self.format_info(info)
+AttributeError: 'BasicPlugin' object has no attribute 'format_info'
+
+2020-06-24 19:28:40,224 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 25, in process
+    response.data = self.format_info(info)
+AttributeError: 'BasicPlugin' object has no attribute 'format_info'
+
+2020-06-24 20:50:16,195 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\disk.py", line 16, in process
+    info = ssh(hostname, 'df -h')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:50:16,196 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\disk.py", line 16, in process
+    info = ssh(hostname, 'df -h')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:50:37,199 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\memory.py", line 18, in process
+    result = ssh(hostname, 'dmidecode -q -t 17 2> /dev/null')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:50:37,199 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\memory.py", line 18, in process
+    result = ssh(hostname, 'dmidecode -q -t 17 2> /dev/null')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:50:58,201 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\network.py", line 16, in process
+    result = ssh(hostname, "ifconfig | grep 'inet ' -B1")
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:50:58,202 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\network.py", line 16, in process
+    result = ssh(hostname, "ifconfig | grep 'inet ' -B1")
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:51:19,212 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\board.py", line 14, in process
+    result = ssh(hostname, 'dmidecode -t1')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:51:19,213 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\board.py", line 14, in process
+    result = ssh(hostname, 'dmidecode -t1')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:51:40,216 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 16, in process
+    uname = ssh(hostname, 'uname').strip()
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:51:40,219 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 16, in process
+    uname = ssh(hostname, 'uname').strip()
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:52:12,035 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\disk.py", line 16, in process
+    info = ssh(hostname, 'df -h')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 20:52:12,036 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\disk.py", line 16, in process
+    info = ssh(hostname, 'df -h')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 21:21:23,729 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\filesystem.py", line 17, in process
+    response.data = self.parse(info)
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\filesystem.py", line 42, in parse
+    key_map[header_cols[1]]: cols[1],
+KeyError: '1K-blocks'
+
+2020-06-24 23:34:57,936 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\filesystem.py", line 16, in process
+    info = ssh(hostname, 'df')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:34:57,937 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\filesystem.py", line 16, in process
+    info = ssh(hostname, 'df')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:35:18,947 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\memory.py", line 18, in process
+    result = ssh(hostname, 'dmidecode -q -t 17 2> /dev/null')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:35:18,947 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\memory.py", line 18, in process
+    result = ssh(hostname, 'dmidecode -q -t 17 2> /dev/null')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:35:39,956 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\network.py", line 16, in process
+    result = ssh(hostname, "ifconfig | grep 'inet ' -B1")
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:35:39,956 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\network.py", line 16, in process
+    result = ssh(hostname, "ifconfig | grep 'inet ' -B1")
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:36:00,968 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\board.py", line 14, in process
+    result = ssh(hostname, 'dmidecode -t1')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:36:00,968 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\board.py", line 14, in process
+    result = ssh(hostname, 'dmidecode -t1')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:36:21,979 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 16, in process
+    uname = ssh(hostname, 'uname').strip()
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:36:21,979 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 16, in process
+    uname = ssh(hostname, 'uname').strip()
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:38:00,902 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\filesystem.py", line 16, in process
+    info = ssh(hostname, 'df')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:38:00,902 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\filesystem.py", line 16, in process
+    info = ssh(hostname, 'df')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:38:21,903 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\memory.py", line 18, in process
+    result = ssh(hostname, 'dmidecode -q -t 17 2> /dev/null')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:38:21,904 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\memory.py", line 18, in process
+    result = ssh(hostname, 'dmidecode -q -t 17 2> /dev/null')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:38:42,906 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\network.py", line 16, in process
+    result = ssh(hostname, "ifconfig | grep 'inet ' -B1")
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:38:42,908 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\network.py", line 16, in process
+    result = ssh(hostname, "ifconfig | grep 'inet ' -B1")
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:39:03,909 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\board.py", line 14, in process
+    result = ssh(hostname, 'dmidecode -t1')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:39:03,911 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\board.py", line 14, in process
+    result = ssh(hostname, 'dmidecode -t1')
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:39:24,913 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 16, in process
+    uname = ssh(hostname, 'uname').strip()
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2020-06-24 23:39:24,915 - cmdb - ERROR -log:  Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\cmdb\lib\plugins\basic.py", line 16, in process
+    uname = ssh(hostname, 'uname').strip()
+  File "C:/Users/Administrator/PycharmProjects/cmdb/app.py", line 12, in ssh
+    ssh.connect(hostname=hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.SSH_PWD)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
