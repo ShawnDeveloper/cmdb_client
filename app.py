@@ -35,9 +35,11 @@ def get_server_list():
 
 def run():
     pool = ThreadPoolExecutor(10)
-    server_list = get_server_list()
+    # server_list = get_server_list()
+    server_list = ['10.0.1.200']
     for server in server_list:
-        pool.submit(task, server['hostname'])
+        # pool.submit(task, server['hostname'])
+        pool.submit(task, server)
 
 
 if __name__ == '__main__':

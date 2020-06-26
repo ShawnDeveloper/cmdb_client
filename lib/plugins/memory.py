@@ -68,7 +68,6 @@ class MemoryPlugin(BasePlugin):
                 'total': cols[1],
                 'used': cols[2],
                 'free': cols[3],
-                'type': key
             }
 
             if key == 'Mem':

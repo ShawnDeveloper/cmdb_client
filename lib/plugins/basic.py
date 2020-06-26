@@ -17,11 +17,9 @@ class BasicPlugin(BasePlugin):
             version = ssh(hostname, 'cat /etc/redhat-release').strip().split('\n')[0]
             cpu_count = ssh(hostname, 'cat /proc/cpuinfo | grep "physical id" | uniq | wc -l ')
             kernel_version = ssh(hostname, 'uname -r')
-            type = 'basic'
             response.data = {
-                type:
+                'basic':
                     {
-                        'type': type,
                         'uname': uname,
                         'version': version,
                         'cpu_count': cpu_count,

@@ -30,7 +30,6 @@ class NetworkPlugin(BasePlugin):
             iface_info = iface_str.strip().split('\n')[1]
             item_list = iface_info.split()
             info_dic = {
-                'iface_name': iface_name,
                 'ip': item_list[1],
                 'netmask': item_list[3],
             }

@@ -42,7 +42,6 @@ class FileSystemPlugin(BasePlugin):
                 key_map[header_cols[2]]: cols[2],
                 key_map[header_cols[3]]: cols[3],
                 key_map[header_cols[4]]: cols[4].replace('%',''),
-                key_map[header_cols[5]]: cols[5],
             }
             result[cols[5]] = col_dic
         return result
