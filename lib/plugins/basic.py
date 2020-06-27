@@ -18,15 +18,12 @@ class BasicPlugin(BasePlugin):
             cpu_count = ssh(hostname, 'cat /proc/cpuinfo | grep "physical id" | uniq | wc -l ')
             kernel_version = ssh(hostname, 'uname -r')
             response.data = {
-                'basic':
-                    {
-                        'uname': uname,
-                        'version': version,
-                        'cpu_count': cpu_count,
-                        'kernel_version': kernel_version
-                    }
+                'uname': uname,
+                'version': version,
+                'cpu_count': cpu_count,
+                'kernel_version': kernel_version
             }
-        except Exception as e:
+        except Exception:
             logger.error(traceback.format_exc())
             response.status = False
             response.error = traceback.format_exc()

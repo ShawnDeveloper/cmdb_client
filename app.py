@@ -18,6 +18,7 @@ def ssh(hostname, cmd):
 
 def task(host):
     server_info = get_server_info(ssh, host)
+    print(server_info)
     requests.post(
         url=settings.API_URL,
         json={'host': host, 'info': server_info})
@@ -35,11 +36,10 @@ def get_server_list():
 
 def run():
     pool = ThreadPoolExecutor(10)
-    # server_list = get_server_list()
-    server_list = ['10.0.1.200']
+    server_list = get_server_list()
+    # server_list = [{'hostname':'10.0.1.200'}]
     for server in server_list:
-        # pool.submit(task, server['hostname'])
-        pool.submit(task, server)
+        pool.submit(task, server['hostname'])
 
 
 if __name__ == '__main__':
